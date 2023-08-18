@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/header-and-home-style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/medias queries.css">
         <link rel="icon" href="assets/images/resistor.png">
+        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/close.css' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/38a1461731.js" crossorigin="anonymous"></script>
         <title>Eletro Libras</title>
     </head>
@@ -20,10 +22,16 @@
                         <a class="nav_item_link" href=""><li class="nav_item">Desenvolvedoras</li></a>
                     </ul>
                 </nav>
+                <div class="menu_button">
+                    <span class="menu_bar"></span>
+                    <span class="menu_bar"></span>
+                    <span class="menu_bar"></span>
+                </div>
+                <img class='hide close'src="assets/images/x.png">
             </div>
         </header>
         <section class="main_container homepage_section">
-            <div class="container">
+            <div class="container homepage_section_container">
                 <div class="info_container">
                     <div class="info_container_title">
                         <h1>Aprenda Eletrônica em Libras</h1>
@@ -31,14 +39,14 @@
                     <p class="text_paragraph">
                         Por meio de recursos inteligentes e interativos em Libras, o Eletro Libras desempenha um papel vital na inclusão de indivíduos surdos na área de Eletrônica.
                     </p>
-                    <a href="">
-                    <button class="cssbuttons-io-button"> 
-                        <i class="fa-brands fa-android"></i>
-                        Baixe agora
-                        <div class="icon">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
-                        </div>
-                    </button>
+                    <a class="button_link"href="https://play.google.com/store/apps/details?id=br.com.app.gpu2756850.gpua32e024764adc5c04ef819d2f21ccda8" target="_blank">
+                        <button class="cssbuttons-io-button"> 
+                            <i class="fa-brands fa-android"></i>
+                            Baixe agora
+                            <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+                            </div>
+                        </button>
                     </a>
                 </div>
                 <div class="mobile_app_image">
@@ -46,7 +54,12 @@
                 </div>
             </div>
         </section>
-        <div vw class="enabled">
+        <section class="main_container about_section">
+            <div class="about_section_container">
+
+            </div>
+        </section>
+        <div vw class="enabled" id="accessibility_function">
             <div vw-access-button class="active"></div>
             <div vw-plugin-wrapper>
               <div class="vw-plugin-top-wrapper"></div>
@@ -56,5 +69,6 @@
         <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         </script>
+        <script src="assets/js/menu-function.js"></script>
     </body>
 </html>
