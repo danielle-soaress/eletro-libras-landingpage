@@ -434,6 +434,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .card_developer {
@@ -444,13 +445,24 @@ nav {
     border-radius: 150px;
     width: 300px;
     height: 300px;
-    background-image: url('/assets/images/danielle.jpeg');
     background-position: center;
     background-size: cover;
     border: 8px solid var(--blue);
     box-shadow: inset 0px 0px 10px #0000009c,
                 0px 0px 10px #0000003d;
 
+}
+
+#patricia_photo {
+    background-image: url("/assets/images/patricia1.jpeg")
+}
+
+#cilene_photo {
+    background-image: url("/assets/images/ci.jpeg")
+}
+
+#danielle_photo {
+    background-image: url("/assets/images/danielle.jpeg")
 }
 
 .person_photo {
