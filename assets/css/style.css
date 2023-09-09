@@ -436,6 +436,7 @@ nav {
     margin-top: 10px;
     gap: 50px;
     flex-wrap: wrap;
+    width: 50vw;
 }
 
 .card_developer {
@@ -464,6 +465,10 @@ nav {
 
 #danielle_photo {
     background-image: url("/assets/images/danielle.jpeg")
+}
+
+#jennifer_photo {
+    background-image: url("/assets/images/jennifer.jpeg")
 }
 
 .person_photo {
